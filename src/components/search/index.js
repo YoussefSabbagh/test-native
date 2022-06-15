@@ -11,7 +11,7 @@ export const Search = ({ setActiveCategory }) => {
     /**
      * TODO: Validar la entrada de texto para que sea una categoria valida
      */
-    setActiveCategory(categoryInput);
+    setActiveCategory((p) => categoryInput);
     setCategoryInput('');
   };
 

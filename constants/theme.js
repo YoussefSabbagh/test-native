@@ -2,7 +2,10 @@ export const COLORS = {
   primary: '#001F2D',
   secondary: '#4D626C',
   activeClr: 'rgb(240,180,85)',
-  bgClr: '#2a3345',
+  blue: '#07889b',
+  bgClr: '#373737',
+  ctaClr: '#e37222',
+  bgLightClr: '#f4f4f4',
   white: '#d3e7e6',
   gray: '#74858C',
 };
@@ -12,8 +15,8 @@ export const SIZES = {
   small: 12,
   font: 14,
   medium: 16,
-  large: 18,
-  extraLarge: 24,
+  large: 20,
+  extraLarge: 28,
 };
 
 export const FONTS = {
@@ -48,7 +51,7 @@ export const SHADOWS = {
     elevation: 7,
   },
   dark: {
-    shadowColor: COLORS.gray,
+    shadowColor: 'red',
     shadowOffset: {
       width: 0,
       height: 7,
